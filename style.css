@@ -1,0 +1,44 @@
+.container{
+    background-color: rgb(111, 147, 175);
+height: 70vmin;
+display:flex;
+justify-content: center;
+}.game{
+height: 60vmin;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 1.5vmin;
+width:60vmin;
+}.btn{
+    height: 18vmin;
+    background-color: rgb(199, 214, 161);
+    border-radius: 5vmin;
+    color: rgb(3, 21, 12);
+    width: 18vmin;
+    font-size: larger;
+    
+
+}
+.title{
+    display: flex;
+    
+    justify-content: center;
+}
+#winner{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 225, 245);
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 30px;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 34px;
+    font-size: larger;
+    font-weight: 900;
+}
